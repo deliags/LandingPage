@@ -1,0 +1,19 @@
+*{
+  font-family: "Roboto", 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header,.section.hero, .footer{
+  background-color: #1F2937;
+}
+
+.random{
+  background-color: #E5E7EB;
+}
+
+.cta, .cta-button{
+  background-color: #3882f6
+}
+
+.logo, .title{
+  color: #F9FAF8;
+}

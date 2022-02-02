@@ -1,73 +1,43 @@
 /* Common properties */
-
 *{
   font-family: "Roboto", 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+/* Sections Background color */
 .section.hero, .footer{
   background-color: #1F2937;
-}
-
-.section.quote{
-  background-color: #E5E7EB;
-  color: #1F2937;
-  
-  font: 36px light italic;
 }
 
 .cta, .cta-button{
   background-color: #3882f6
 }
 
+/* Font color */
 .section.hero, .cta, .footer{
   color: #F9FAF8;
 }
 
+/* Common button styling */
 .header-button,.cta-button{
   color: #F9FAF8;
   background-color: #3882f6;
   padding: 5px 20px;
 }
 
-/* Single elements styling */
-
-.random-title{
-  font-size: 36px;
-  font-weight: extra-bold;
-  color: #1F2937;
-}
-
-/* Image inside the hero section */
-.content img{
-  width: auto;
-  height: 300px;
-  border-radius: 10%;
-}
-
-.img-card{ 
-  border: 4px solid  #3882f6;
-  border-radius: 10%;
-  /*to be revisited as scaling inconsistent*/
-  width: 200px;
-  height: 200px;
-}
-
-.header-button{
-  border: 2px solid  #3882f6;
-  border-radius: 10%;
-  font-weight: 700;
-}
-
-.cta-button{
-  border: 2px solid  #F9FAF8;
-  border-radius: 10%;
-}
+/* Section header*/
 
 .header{
   display: flex;
   justify-content: space-between;
   padding: 0 100px;
+  margin: 0;
+}
 
+.logo{
+  color: #F9FAF8;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 12px;
 }
 
 .header-link{
@@ -75,19 +45,6 @@
   gap: 32px;
   list-style: none;
   color: #adadad;
-  /* padding-right: 150px; */
-}
-
-.title{
-  font-size: 48px;
-  font-weight: 900;
-  margin: 0;
-}
-
-.subtext{
-  font-size: 18px;
-  color: #E5E7EB;
-  margin: 10px 0px;
 }
 
 .content{
@@ -103,4 +60,94 @@
   padding-right: 100px;
   height: 300px;
 }
+
+.title{
+  font-size: 48px;
+  font-weight: 900;
+  margin: 0;
+}
+
+.subtext{
+  font-size: 18px;
+  color: #E5E7EB;
+  margin: 10px 0px;
+}
+
+.header-button{
+  border: 2px solid  #3882f6;
+  border-radius: 10%;
+  font-weight: 700;
+}
+
+.content img{
+  /* Image inside the hero section */
+  width: auto;
+  height: 300px;
+  border-radius: 10%;
+}
+
+/* Section random */
+
+.random-title{
+  font-size: 36px;
+  font-weight: extra-bold;
+  color: #1F2937;
+  text-align: center;
+}
+
+.cards{
+  display: flex;
+  justify-content: center;
+  margin: 50px 100px;
+  gap: 30px;
+}
+
+.text-card{
+  text-align: center;
+}
+
+.img-card{ 
+  border: 4px solid  #3882f6;
+  border-radius: 10%;
+  /*to be revisited as scaling inconsistent*/
+  width: 200px;
+  height: 200px;
+}
+
+/* Section quote */
+
+.section.quote{
+  background-color: #E5E7EB;
+  color: #1F2937;
+  font: 36px light italic;
+}
+
+/* Section CTA */
+
+.cta-button{
+  border: 2px solid  #F9FAF8;
+  border-radius: 10%;
+}
+
+/* Footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

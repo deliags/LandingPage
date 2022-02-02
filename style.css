@@ -37,9 +37,11 @@
   color: #1F2937;
 }
 
-.section.hero img{
+/* Image inside the hero section */
+.content img{
   width: auto;
   height: 300px;
+  border-radius: 10%;
 }
 
 .img-card{ 
@@ -64,16 +66,16 @@
 .header{
   display: flex;
   justify-content: space-between;
+  padding: 0 100px;
 
 }
 
-/* three links on the header */
 .header-link{
   display: flex;
   gap: 32px;
   list-style: none;
   color: #adadad;
-  padding-right: 150px;
+  /* padding-right: 150px; */
 }
 
 .title{
@@ -85,18 +87,20 @@
 .subtext{
   font-size: 18px;
   color: #E5E7EB;
+  margin: 10px 0px;
 }
 
 .content{
   display:flex;  
-  margin: 100px; 
+  padding: 100px; 
+  justify-content: center;
 }
 
 .content-right{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding-right: 32px;
-  
+  padding-right: 100px;
+  height: 300px;
 }
 

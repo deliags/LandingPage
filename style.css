@@ -98,12 +98,13 @@
 .cards{
   display: flex;
   justify-content: center;
-  margin: 50px 100px;
+  margin: 50px 50vw;
   gap: 30px;
+  text-align: center; 
 }
 
 .text-card{
-  text-align: center;
+  color: #7a7a7a; 
 }
 
 .img-card{ 
@@ -118,8 +119,26 @@
 
 .section.quote{
   background-color: #E5E7EB;
-  color: #1F2937;
-  font: 36px light italic;
+  color: #555555;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  padding: 10vh;
+}
+
+.quote{
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 400;
+  padding: 5vh 10vw 0;
+  margin: auto;
+}
+
+.citation{
+  align-self: flex-end;
+  padding: 0 10vw;
+  font-weight: 700;
+  font-size: 24px;
 }
 
 /* Section CTA */

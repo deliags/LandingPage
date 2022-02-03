@@ -154,16 +154,20 @@ body{
   padding: 5vw;
 }
 
+.cta-title{
+  padding-bottom: 0;
+}
 .cta{
-  padding: 2vw 10vw;
+  padding: 2vw 5vw;
   border-radius: 15px;
-  
+  display: flex;
+  align-items: center;
 }
 
 .cta-button{
   border: 2px solid  #F9FAF8;
   border-radius: 5px;
-  justify-self: flex-end;
+  margin-left: 10vw; 
 }
 
 /* Footer */
